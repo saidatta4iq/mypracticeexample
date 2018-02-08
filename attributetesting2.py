@@ -9,3 +9,9 @@ def test_ramraju():
 def test_raghu():
 	result = 50/2
 	print(result)
+
+@attr(speed='noneed')
+def test_three():
+	result = 55/3
+	print(result)
+
